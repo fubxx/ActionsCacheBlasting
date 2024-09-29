@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Do The Thing 
-        run: echo "$${{ secrets.GITHUB_TOKEN }} accepted, performing something with setting."
+        run: echo "$$${{ inputs.setting }} accepted, performing something with setting."
 
